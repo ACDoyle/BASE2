@@ -10,5 +10,5 @@ def fibi(n):
         old, new = new, old + new
     return new
 
-for i in range(100):
+for i in range(20):
     print fibi(i)
